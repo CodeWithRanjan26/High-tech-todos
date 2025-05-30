@@ -149,7 +149,7 @@
 
 .blinking-text {
   animation: blink 1s step-start infinite;
-  color: rgb(229, 255, 0); /* Optional: to make it stand out */
+  color: rgb(255, 0, 4); /* Optional: to make it stand out */
 }
 
 @keyframes blink {
