@@ -35,7 +35,9 @@ function Dashboard() {
   };
 
   return (
+  
     <div className="dashboard-container">
+
       <header className="dashboard-header">
         <h1>Welcome Back{currentUser ? `, ${currentUser.email.split('@')[0]}` : ''} 🚀</h1>
         <p>Select a section to get started!</p>

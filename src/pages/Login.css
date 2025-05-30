@@ -145,3 +145,15 @@
     padding: 30px 20px;
   }
 }
+
+
+.blinking-text {
+  animation: blink 1s step-start infinite;
+  color: rgb(229, 255, 0); /* Optional: to make it stand out */
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

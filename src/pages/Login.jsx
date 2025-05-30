@@ -60,6 +60,7 @@ const Login = () => {
 
   return (
     <div className="login-container">
+     <h1 className="blinking-text">Dashboard development is underway now.</h1>
       <h2>Welcome Back 🚀</h2>
       {error && <p className="error">{error}</p>}
 
