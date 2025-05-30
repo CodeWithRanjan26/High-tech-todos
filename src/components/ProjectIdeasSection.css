@@ -1,0 +1,90 @@
+.project-ideas-container {
+    background: #0f172a;
+    color: #f8fafc;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .idea-input-section {
+    background: #1e293b;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .idea-input-section select,
+  .idea-input-section input[type="range"] {
+    margin-top: 0.5rem;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    background: #334155;
+    color: #f8fafc;
+  }
+  
+  .idea-input-section .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.8rem 0;
+  }
+  
+  .idea-input-section label {
+    background: #475569;
+    padding: 0.4rem 0.6rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  
+  .idea-input-section button {
+    margin-top: 1rem;
+    background: #06b6d4;
+    border: none;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .idea-input-section button:hover {
+    background: #0891b2;
+  }
+  
+  .idea-list {
+    display: grid;
+    gap: 1.5rem;
+  }
+  
+  .idea-card {
+    background: #1e293b;
+    padding: 1rem;
+    border-radius: 12px;
+    border-left: 4px solid #06b6d4;
+  }
+  
+  .idea-card h3 {
+    margin: 0;
+    color: #67e8f9;
+  }
+  
+  .idea-card button {
+    margin-top: 0.8rem;
+    background: #22d3ee;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #0f172a;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .idea-card button:hover {
+    background: #06b6d4;
+    color: white;
+  }
+  

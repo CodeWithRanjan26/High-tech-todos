@@ -1,0 +1,237 @@
+/* General Styles */
+.landing {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #ff5f6d, #ffc3a0);
+    color: white;
+    padding: 80px 40px;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hero-content {
+    max-width: 55%;
+  }
+  
+  .hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .cta-button {
+    padding: 15px 35px;
+    background-color: #00b4d8;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0098a6;
+  }
+  
+  .hero-image img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Key Features Section */
+  .features {
+    padding: 60px 20px;
+    background-color: #ffffff;
+  }
+  
+  .features h2 {
+    text-align: center;
+    font-size: 2.75rem;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .feature-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .feature-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feature-card h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .feature-card p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  /* Testimonial Section */
+  .testimonial {
+    background-color: #00b4d8;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .testimonial-slider p {
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  
+  /* Video Demo Section */
+  .video-demo {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #f7f7f7;
+  }
+  
+  .video-demo video {
+    width: 90%;
+    max-width: 900px;
+    border-radius: 20px;
+    border: 2px solid #ddd;
+  }
+  
+  /* Call to Action Section */
+  .cta-section {
+    background-color: #1e9caf;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #995b13;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+  }
+  
+  .cta-button:hover {
+    background-color: #6c63ff;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #333;
+    color: white;
+    /* padding: 50px 20px; */
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 15px;
+  }
+  
+  footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  footer ul li a:hover {
+    color: #ff7f50;
+  }
+  
+  /* Social Media Icons */
+  .social-media-links a {
+    color: white;
+    margin: 0 20px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media-links a:hover {
+    color: #ff7f50;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .feature-cards {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .cta-section button {
+      width: 100%;
+    }
+  
+    .video-demo video {
+      width: 100%;
+    }
+  
+    .social-media-links {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  

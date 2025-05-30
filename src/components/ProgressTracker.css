@@ -1,0 +1,79 @@
+/* ProgressTracker.css */
+.tracker-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #046970;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .tracker-container h2 {
+    text-align: center;
+    color: #3d5764;
+  }
+  
+  .tracker-container p {
+    text-align: center;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  .charts {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .chart-box {
+    flex: 1;
+    min-width: 300px;
+    background: #ffffff;
+    color: #0d0e0e;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  }
+  
+  button {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    background-color: #0d0e0e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1976d2;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  
+  .task-list li {
+    background: #065756;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border-radius: 5px;
+  }
+  
+  .summary {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #e3f2fd;
+    border-radius: 5px;
+  }
+  
+  .summary p {
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  

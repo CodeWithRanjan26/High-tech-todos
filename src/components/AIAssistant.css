@@ -1,0 +1,45 @@
+.ai-assistant {
+    background: #f2f7ff;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .input-section {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input-section input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-section button {
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .input-section button:hover {
+    background-color: #3730a3;
+  }
+  
+  .response-section {
+    margin-top: 20px;
+    background: #e0f7fa;
+    padding: 15px;
+    border-radius: 10px;
+    color: #00796b;
+  }
+  
